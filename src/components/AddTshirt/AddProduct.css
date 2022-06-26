@@ -1,0 +1,20 @@
+.add-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+    border: 1px solid rgba(163, 155, 155, 0.582);
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.add-product img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.icon {
+    font-size: 24px;
+    color: royalblue;
+}

@@ -1,0 +1,14 @@
+.nav {
+    background-color: black;
+    padding: 16px 0px;
+}
+
+.nav a {
+    color: white;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: orange;
+}

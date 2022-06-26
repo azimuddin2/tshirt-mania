@@ -1,0 +1,28 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 80px 40px;
+}
+
+.cart-container {
+    background-color: #ddd;
+    padding-top: 10px ;
+}
+
+
+/* responsive mobile device */
+@media screen and (max-width: 576px) {
+    .home-container {
+        grid-template-columns: 1fr;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
