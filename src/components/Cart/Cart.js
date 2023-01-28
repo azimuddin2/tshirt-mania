@@ -21,3 +21,12 @@ const Cart = (props) => {
 };
 
 export default Cart;
+
+
+
+/** Conditional Rendering \\ Module-54 || Video-4 
+ * 1. use element in a variable and then use if-else to set value
+ * 2. ternary operation condition ? true : false
+ * 3. && operator (if condition is true, i want to display something)
+ * 4. || operator (if condition is false, i want to display something)
+ */
